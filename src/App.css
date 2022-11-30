@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+    --black: #4D4C59;
+    --purple: #6C63FF;
+    --light-grey: #C8C8C8;
+    --text-color: #9C9AB6;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.img-top,
+.img-bottom {
+    width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.App-link {
-  color: #61dafb;
+.div-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+    color: var(--purple);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-transform: uppercase;
+    letter-spacing: 0.105em;
+    padding-bottom: 19px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    width: 494px;
+}
+
+li {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--light-grey);
+}
+
+li:nth-child(1) {
+    margin-left: 29px;
+}
+
+li:nth-child(2),
+li:nth-child(3) {
+    margin-left: 91px;
+}
+
+li:nth-child(4) {
+    margin-left: 77px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 108px;
+    color: var(--black);
+    padding-bottom: 46px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--text-color);
+    padding-bottom: 31px;
+}
+
+button {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    background-color: var(--purple);
+    border: none;
+    border-radius: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 10px;
+    padding-bottom: 16px;
+    cursor: pointer;
+}
+
+.div-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
