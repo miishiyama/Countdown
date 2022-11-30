@@ -2,7 +2,7 @@
 ![preview](./preview/Countdown.png)
 
 ## Projeto 💻
-Projeto de um desafio da Rocketseat de criar uma página para o lançamento de um site, produto ou serviço, com um timer de contagem regressiva informando quanto tempo falta para o lançamento. <br>
+Projeto de um desafio da Rocketseat de criar uma página para o lançamento de um site, produto ou serviço, com um timer de contagem regressiva. <br>
 (https://www.figma.com/file/vob4m4gIoVwAUCJeGhnW9D/DD-%2F-Countdown-(Copy)?t=2uW7Daiy9i13yydw-6)
 
 ## Instalação 🛠
