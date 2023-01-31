@@ -4,31 +4,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif
 }
 
 :root {
     --black: #4D4C59;
     --purple: #6C63FF;
     --light-grey: #C8C8C8;
-    --text-color: #9C9AB6;
+    --text-color: #9C9AB6
 }
 
 .img-top,
 .img-bottom {
-    width: 100%;
+    width: 100%
 }
 
 section {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr
 }
 
 .div-left {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center
 }
 
 h1 {
@@ -38,33 +38,33 @@ h1 {
     line-height: 54px;
     text-transform: uppercase;
     letter-spacing: 0.105em;
-    padding-bottom: 19px;
+    padding-bottom: 19px
 }
 
 ul {
     list-style: none;
     display: flex;
-    width: 494px;
+    width: 494px
 }
 
 li {
     font-weight: 300;
     font-size: 14px;
     line-height: 21px;
-    color: var(--light-grey);
+    color: var(--light-grey)
 }
 
 li:nth-child(1) {
-    margin-left: 29px;
+    margin-left: 29px
 }
 
 li:nth-child(2),
 li:nth-child(3) {
-    margin-left: 91px;
+    margin-left: 91px
 }
 
 li:nth-child(4) {
-    margin-left: 77px;
+    margin-left: 77px
 }
 
 h2 {
@@ -72,7 +72,7 @@ h2 {
     font-size: 72px;
     line-height: 108px;
     color: var(--black);
-    padding-bottom: 46px;
+    padding-bottom: 46px
 }
 
 p {
@@ -80,7 +80,7 @@ p {
     font-size: 14px;
     line-height: 21px;
     color: var(--text-color);
-    padding-bottom: 31px;
+    padding-bottom: 31px
 }
 
 button {
@@ -95,11 +95,11 @@ button {
     padding-right: 32px;
     padding-top: 10px;
     padding-bottom: 16px;
-    cursor: pointer;
+    cursor: pointer
 }
 
 .div-right {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center
 }

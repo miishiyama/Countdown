@@ -2,8 +2,11 @@
 ![preview](./preview/Countdown.png)
 
 ## Projeto 💻
-Projeto de um desafio da Rocketseat de criar uma página para o lançamento de um site, produto ou serviço, com um timer de contagem regressiva. <br>
-(https://www.figma.com/file/vob4m4gIoVwAUCJeGhnW9D/DD-%2F-Countdown-(Copy)?t=2uW7Daiy9i13yydw-6)
+Projeto de um desafio da Rocketseat de criar uma página para o lançamento de um site, produto ou serviço, com um timer de contagem regressiva.
+
+## Layout 🔖
+Segue abaixo o layout deste projeto:
+- [Figma](https://www.figma.com/file/vob4m4gIoVwAUCJeGhnW9D/DD-%2F-Countdown-(Copy)?t=2uW7Daiy9i13yydw-6)
 
 ## Instalação 🛠
 Siga esses passos para instalar o repositório na sua máquina:
@@ -22,6 +25,7 @@ As tecnologias utilizadas neste projeto são:
 - Testing Library
 - React Scripts
 - Web Vitals
+- Google Fonts
 
 ## Créditos ❤️
 Feito por [Millene Eduarda Ishiyama](https://github.com/miishiyama/).
